@@ -150,7 +150,7 @@ def get_pipeline(
     # parameters for pipeline execution
     processing_instance_count = ParameterInteger(name="ProcessingInstanceCount", default_value=1)
     model_approval_status = ParameterString(
-        name="ModelApprovalStatus", default_value="PendingManualApproval"
+        name="ModelApprovalStatus", default_value="Approved"
     )
     input_data = ParameterString(
         name="InputDataUrl",
